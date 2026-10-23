@@ -72,7 +72,9 @@ input and sorts it with a supplied comparator.
 ## Performance
 
 Measured locally on an **Intel Core i5-12450H (8 cores / 12 threads), 16 GB RAM, Windows 11**,
-`cargo --release`, single run, synthetic data. Indicative numbers, not a controlled suite.
+`cargo --release`, single run, synthetic data. The benchmark file shipped with the course skeleton is
+a stub that the course runner replaces, so these figures come from a local harness I wrote, not from
+the course benchmark. Indicative numbers, not a controlled suite.
 
 | Workload | Result |
 |---|---|
